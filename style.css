@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ffe9e9;
+}
+
+header {
+    height: 53px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: rgba(255, 104, 104, 0.311); */
+    background-color: rgb(255 168 168);
+}
+
+.container {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.search-cont {
+    display: flex;
+
+}
+
+#input {
+    width: 200px;
+    height: 30px;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+}
+
+#submit {
+    width: 100px;
+    background-color: rgb(255 102 102);
+    height: 30px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #f0f8ff;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: rgb(220, 58, 58);
+    color: #f0f0f0;
+}
+
+#Heading {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+
+}
+
+#content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* JS styling */
+#image {
+    height: 322px;
+    width: 227px;
+    object-fit: cover;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+.FoodContent {
+    margin-top: 40px;
+    /* border: 2px solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hole{
+    background-color: #f0f8ff;
+    border-radius: 14px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#viewDetails{
+    width: 89px;
+    height: 25px;
+    font-size: 11px;
+    margin-top: 8px;
+    border: none;
+    background: #ff6666;
+    color: #ffff;
+    border-radius: 17px;
+    cursor: pointer;
+}
+#viewDetails:hover{
+    background-color: rgb(220, 58, 58);
+    color: #f0f0f0;
+}
